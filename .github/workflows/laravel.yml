@@ -42,3 +42,4 @@ jobs:
           cd rutech.sendrave.com
           composer install --ignore-platform-reqs
           php artisan storage:link
+          php artisan key:generate
